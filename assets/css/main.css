@@ -1273,7 +1273,7 @@ section,
 
 .skills .skills-grid .skill-card .skill-item .skill-bar {
   height: 6px;
-  background: var(--contrast-color);
+  background: #333333;
   /* color-mix(in srgb, var(--default-color), transparent 92%); */
   border-radius: 10px;
   overflow: hidden;

@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'Bogart Trial';
-  src: url('../fonts/Bogart/BogartTrial-Regular.woff2') format('woff2'),
-       url('../fonts/Bogart/BogartTrial-Regular.woff') format('woff');
+  src: url('../fonts/Bogart/BogartTrial-Regular.ttf') format('ttf'),
+       url('../fonts/Bogart/BogartTrial-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -2942,7 +2942,7 @@ section,
 
 .portfolio-details .portfolio-details-content .project-overview .project-accordion .accordion-item .accordion-body p {
   margin-bottom: 0;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--default-color);
   line-height: 1.6;
 }

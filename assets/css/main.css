@@ -133,6 +133,18 @@ h6 {
   font-size: 16px !important;
 }
 
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 3rem!important;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title h2 {
+    font-size: 2.4rem!important;
+  }
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -624,13 +636,13 @@ section,
 
 @media (max-width: 768px) {
   .hero .hero-title {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
 }
 
 @media (max-width: 576px) {
   .hero .hero-title {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 }
 

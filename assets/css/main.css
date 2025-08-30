@@ -11,8 +11,8 @@
 @font-face {
   font-family: 'Bogart Trial';
   src: /*url('../fonts/Bogart/BogartTrial-Regular.woff') format('woff'), */
-       url('../fonts/Bogart/BogartTrial-Regular.woff2') format('woff2'),
-       url('../fonts/Bogart/BogartTrial-Regular.ttf') format('truetype');
+       url('../fonts/Bogart/') format('woff2'),
+       url('../fonts/Bogart/') format('truetype');
   font-weight: bold;
   font-style: normal;
 }

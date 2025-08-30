@@ -11,7 +11,8 @@
 @font-face {
   font-family: 'Bogart Trial';
   src: url('../fonts/Bogart/BogartTrial-Regular.woff') format('woff'),
-       url('../fonts/Bogart/BogartTrial-Regular.woff') format('woff');
+       url('../fonts/Bogart/BogartTrial-Regular.woff2') format('woff2'),
+       url('../fonts/Bogart/BogartTrial-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -74,7 +75,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
+  font-family: 'Bogart Trial', 'Poppins', sans-serif;
 }
 
 .site-logo a {

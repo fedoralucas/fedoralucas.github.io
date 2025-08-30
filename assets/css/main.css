@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'Bogart Trial';
-  src: url('../fonts/Bogart/BogartTrial-Regular.ttf') format('ttf'),
-       url('../fonts/Bogart/BogartTrial-Regular.ttf') format('ttf');
+  src: url('../fonts/Bogart/BogartTrial-Regular.woff') format('woff'),
+       url('../fonts/Bogart/BogartTrial-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

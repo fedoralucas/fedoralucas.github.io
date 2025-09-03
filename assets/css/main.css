@@ -632,6 +632,21 @@ section,
   font-weight: 900;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+
+  /* a verdadeira solução */
+  min-height: 2.4em; /* espaço para a maior frase */
+}
+
+@media (max-width: 1360px) {
+  .hero .hero-title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero .hero-title {
+    font-size: 3.6rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -640,9 +655,18 @@ section,
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 550px) {
+  .hero .hero-title {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 440px) {
   .hero .hero-title {
     font-size: 2.6rem;
+    font-size: 2rem;
+    line-height: 1.3;
+    min-height: 2.8em; /* reserva mais espaço p/ "content creator" */
   }
 }
 
@@ -669,6 +693,7 @@ section,
   display: flex;
   gap: 2rem;
   margin-bottom: 3rem;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -713,6 +738,7 @@ section,
   display: flex;
   gap: 1rem;
   margin-bottom: 3rem;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -764,6 +790,7 @@ section,
 .hero .social-links {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
